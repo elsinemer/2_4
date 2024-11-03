@@ -1,6 +1,6 @@
-# Programa en Python para clasificar tres numeros en orden ascendente sin funciones ni clases
+# Clasificar tres numeros en orden ascendente
 
-# Pedir al usuario los tres números
+# PSe pide al usuario los tres números
 a = int(input("Ingrese el primer número (a): "))
 b = int(input("Ingrese el segundo número (b): "))
 c = int(input("Ingrese el tercer número (c): "))
