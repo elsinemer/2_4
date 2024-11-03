@@ -1,0 +1,13 @@
+# Verificar si un número es múltiplo de 2, 3, 5, 7, 9, 10 y 11 
+
+# Pedir al usuario un número
+numero = int(input("Ingrese un número: "))
+
+# Verificar si el número es múltiplo de los números dados y mostrar los resultados
+print(f"¿Es {numero} múltiplo de 2?", "Sí" if numero % 2 == 0 else "No")
+print(f"¿Es {numero} múltiplo de 3?", "Sí" if numero % 3 == 0 else "No")
+print(f"¿Es {numero} múltiplo de 5?", "Sí" if numero % 5 == 0 else "No")
+print(f"¿Es {numero} múltiplo de 7?", "Sí" if numero % 7 == 0 else "No")
+print(f"¿Es {numero} múltiplo de 9?", "Sí" if numero % 9 == 0 else "No")
+print(f"¿Es {numero} múltiplo de 10?", "Sí" if numero % 10 == 0 else "No")
+print(f"¿Es {numero} múltiplo de 11?", "Sí" if numero % 11 == 0 else "No")
