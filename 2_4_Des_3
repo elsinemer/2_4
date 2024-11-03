@@ -1,0 +1,12 @@
+# Convertir una temperatura de Celsius a Fahrenheit y Kelvin
+
+# Ingresar la temperatura en Celsius
+temperatura_celsius = float(input("Ingrese la temperatura en Celsius: "))
+
+# Calcular la conversión a Fahrenheit y Kelvin
+fahrenheit = (temperatura_celsius * 9/5) + 32
+kelvin = temperatura_celsius + 273.15
+
+# Mostrar los resultados
+print("La temperatura en Fahrenheit es:", fahrenheit)
+print("La temperatura en Kelvin es:", kelvin)
